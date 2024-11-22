@@ -1,7 +1,7 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 int countdigit(int n){
-    int i = n;
     cout<<"we entered into function";
     int digit =0;
     while (n >0){
@@ -15,11 +15,19 @@ int countdigit(int n){
     return digit;
    
 }
-
+// optimal approach
+int countdigit2(int n ){
+    if(n==0){
+        cout<<0;
+    }  
+    n=abs(n);
+    return (log10(n))+1;
+}
 int main(){
     int n ;
     cin>>n;
-    cout<<countdigit(n);
+    cout<<countdigit(n)<<endl;
+    cout<<countdigit2(n);
 
     
 }
