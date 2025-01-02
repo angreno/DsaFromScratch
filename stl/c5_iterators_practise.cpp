@@ -9,13 +9,20 @@ void p(){
   }
 
   //to print all elements
-  vector<int> :: iterator it ;
-  for (int i = *k.begin() ; *k.begin()!=k.back() ; *k.begin()++){
+  for (vector<int>::iterator it = k.begin() ;it != k.end(); it++ ){
 
-    cout<<*k.begin();
+
+    cout<<*it<<endl;
 
   }
+   for(auto it = k.begin() ; it != k.end() ; it++){
+    cout<<*it;
+  }
 }
+
+//instead of above solution we can direct put datatype as auto in iterator
+
+ 
 
 
 
