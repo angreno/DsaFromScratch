@@ -4,6 +4,8 @@ using namespace std;
 //vectors are dynamic in nature they can expand themselves 
 void vectors(){
   //declaration of vectors
+  //basically in containers  our declaration syntax goes as follow
+  // container type  <data type > variable name 
   vector <int> s; //creates and empty container
   
   //to add element we use push_back or emplace_back   emplace_back is faster than push_back 
