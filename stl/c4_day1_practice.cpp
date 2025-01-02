@@ -29,13 +29,16 @@ void p(){
   cout<<"now we are going to see vector "<<endl;
   vector <int> vec;
   vec.push_back(2);
-  cout<<vec[0];
+  cout<<vec[0]<<endl;
 
   vector< pair <int,int> > v;
+  v.push_back({1,2});
+
+  cout<<v[0].first<<endl;
 
   vector <int> a(1,200);
   cout<<a[0];
-  
+
 
 
 
