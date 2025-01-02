@@ -4,6 +4,8 @@ using namespace std;
 void t(){
   //every container has its own iterator so syntax goes as follow
   // container<data type > :: iterator iterator name = variable. function
+  // what is iterator then ?
+  // iterator basically points out memory address of the instance
 
   vector<int> k ;
   k.emplace_back (2);
@@ -29,9 +31,17 @@ void j(){
   vector <int> k;
   k.emplace_back(4);
   k.emplace_back(3);
+  //it.end point out the memory location of instance that is just after it
   vector<int>::iterator it = k.end();
-  cout<<*it-1<<endl;
+  //so to get last element we do -1
+  it=it-1;
+  cout<<*it<<endl;
+  cout<<k.back();
+  cout<<*k.end();
+  cout<<*k.begin();
+
 }
+
   
 
 
