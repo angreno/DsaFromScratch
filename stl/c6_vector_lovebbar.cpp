@@ -27,7 +27,7 @@ int main(){
   // to clear elements present in vector
   // note this will only clear size . the memory assigned will be same i.e capacity
   k.clear();
-  cout<<k.size();
+  cout<<"so the size of vector is"<<k.size();
   cout<<k.capacity();
 
 
