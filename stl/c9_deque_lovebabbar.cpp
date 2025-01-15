@@ -35,7 +35,10 @@ int main(){
   cout<<"lets empty container "<<endl;
   a.clear();
   cout<<a.size();
-  cout<<a[4];
+  cout<<a[4]<<endl;
+  
+  deque<int> d = {4,2,3,4};
+  cout<<d.front();
 
   
 
