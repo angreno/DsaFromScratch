@@ -21,12 +21,7 @@ int main(){
   cout<<s.top();
   s.pop();
   }*/
-  
 
-  cout<<endl;
-  cout<<s.size()<<endl;
-
- 
 
 
 }
