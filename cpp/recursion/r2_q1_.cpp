@@ -8,8 +8,9 @@ string pattern(string n ){
   else{
       
   i++;
-  pattern(n);
+  
   cout<<n<<endl;
+  pattern(n);
   }
 
 
