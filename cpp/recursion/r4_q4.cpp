@@ -5,9 +5,10 @@ void p(int n){
     return ;
   }
   
-  cout<<n;
+  //
   n--;
   p(n);
+  cout<<n;
 }
 
 int main(){

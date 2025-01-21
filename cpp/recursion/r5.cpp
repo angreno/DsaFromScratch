@@ -2,18 +2,19 @@
 using namespace std;
 
 void k(int i , int j ){
-  if(i>j){
+  if(i<=0){
     return ;
   }
+ 
+ 
+  //when function get calls first until base condition then executes something then it is known as backtracking.
+  k(i-1,j);
   cout<<i;
-  i++;
-  k(i,j);
 }
 
 
 
 int main(){
-  int i=1;
-  k(i,4);
+  k(4,4);
 
 }
