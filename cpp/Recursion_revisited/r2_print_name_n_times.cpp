@@ -13,6 +13,6 @@ void name(int k ,int i){
 
 int main(){
   string n;
-  name(1,6);
+  name(0,5);
 
 }
