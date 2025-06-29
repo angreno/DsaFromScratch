@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
-//using two pointers
+//using single pointer
 void rev(vector<int>arr ,int i){
-  if(i>=arr.size()){
+  if(i>=arr.size()/2){
     for(int i =0;i<=3;i++){
       cout<<arr[i]<<endl;
   }
