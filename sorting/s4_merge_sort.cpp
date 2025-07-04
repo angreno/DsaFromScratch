@@ -48,7 +48,8 @@ void mergesort(int arr[],int low , int high){
      }
      cout<<endl;
 }
-
+// its takes O(n log n) 
+// and space O(n)
 
 int main() {
     int arr [5]= {3,2,4,1,3};
